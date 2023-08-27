@@ -1,0 +1,136 @@
+/* COLOR_PALETTE */
+:root {
+    --blue: #3535ec;
+    --dark_blue: #120945;
+    --gray: #d4d7f5;
+    --green: #306753;
+    --pink: #de7eb6;
+    --yellow: #f2ad41;
+    --white: #ffffff;
+}
+
+/* CSS_RESET */
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+body {
+    font-family: 'Livvic', Arial, Helvetica sans-serif;
+    background-color: var(--blue);
+    line-height: 1;
+}
+
+.container {
+    width: 350px;
+    margin: 32px auto 0 auto;
+}
+
+.xmas-stage {
+    position: relative;
+    height: 600px;
+}
+
+/* COUNTDOWN */
+.panel {
+    background-color: var(--dark_blue);
+    padding: 16px 24px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--pink);
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-block {
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+}
+
+.counter-block:last-child {
+    color: var(--yellow);
+}
+
+.counter-block-number {
+    font-size: 48px;
+}
+
+.counter-block-lable {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* GIFTS */
+
+.gift {
+    position: absolute;
+    width: 120px;
+}
+
+.gift_1 {
+    bottom: 55px;
+    right: 30px;
+}
+
+.gift_2 {
+    bottom: 50px;
+    left: 36px;
+}
+
+.gift_3 {
+    bottom: 110px;
+    left: 68px;
+    width: 60px;
+}
+
+/* BALLS */
+
+.ball {
+    position: absolute;
+    width: 65px;
+}
+
+.ball_1 {
+    top: 340px;
+    left: 86px;
+}
+
+.ball_2 {
+    top: 274px;
+    left: 110px;
+}
+
+.ball_3 {
+    top: 255px;
+    right: 102px;
+}
+
+.ball_4 {
+    top: 360px;
+    right: 75px;
+}
+
+.ball_5 {
+    top: 326px;
+    left: 155px;
+}
